@@ -1,0 +1,45 @@
+{
+    "average_validation_score": 1,
+    "average_human_score": 1.8666666666666667,
+    "highest_score_count": 27,
+    "top_images": [
+        {
+            "image": "C:/Users/ahziy/OneDrive/Y4S1/FYP/ViLT/vilt/data/images\\cropped_scene_86.jpeg",
+            "validation_score": 1,
+            "human_score": 2,
+            "action_template": "[\n    {\n        \"action\": \"Walk\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"Move to the chair near the upper right corner of the kitchen, close to the cabinets.\"\n    },\n    {\n        \"action\": \"Grab\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"None (target object is specified).\"\n    },\n    {\n        \"action\": \"Walk\",\n        \"parameters\": {\n            \"target\": \"destination\"\n        },\n        \"goal\": \"Move towards the dining area where there are two other chairs, located near the kitchen island at the bottom left of the image.\"\n    },\n    {\n        \"action\": \"Place\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"Place the chair beside the existing two chairs at the kitchen island.\"\n    }\n]"
+        },
+        {
+            "image": "C:/Users/ahziy/OneDrive/Y4S1/FYP/ViLT/vilt/data/images\\cropped_scene_108.jpeg",
+            "validation_score": 1,
+            "human_score": 2,
+            "action_template": "[\n    {\n        \"action\": \"Walk\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"Move to the right of the kitchen in front of the chairs placed near the corner.\"\n    },\n    {\n        \"action\": \"Grab\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"None (target object is specified).\"\n    },\n    {\n        \"action\": \"Walk\",\n        \"parameters\": {\n            \"target\": \"correct placement\"\n        },\n        \"goal\": \"Move to the central counter area where chairs are arranged, near the small plant.\"\n    },\n    {\n        \"action\": \"Place\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"Place the chair aligned with the other chairs at the counter.\"\n    }\n]"
+        },
+        {
+            "image": "C:/Users/ahziy/OneDrive/Y4S1/FYP/ViLT/vilt/data/images\\cropped_scene_58.jpeg",
+            "validation_score": 1,
+            "human_score": 2,
+            "action_template": "[\n    {\n        \"action\": \"Walk\",\n        \"parameters\": { \"target\": \"chair\" },\n        \"goal\": \"Move next to the chair placed near the kitchen entrance, close to the counter.\"\n    },\n    {\n        \"action\": \"Grab\",\n        \"parameters\": { \"target\": \"chair\" },\n        \"goal\": \"None (target object is specified).\"\n    },\n    {\n        \"action\": \"Walk\",\n        \"parameters\": { \"target\": \"placement area\" },\n        \"goal\": \"Move towards the dining table in the center of the kitchen.\"\n    },\n    {\n        \"action\": \"Place\",\n        \"parameters\": { \"target\": \"chair\" },\n        \"goal\": \"Place the chair beside the dining table aligned with the other chairs.\"\n    }\n]"
+        }
+    ],
+    "lowest_images": [
+        {
+            "image": "C:/Users/ahziy/OneDrive/Y4S1/FYP/ViLT/vilt/data/images\\cropped_scene_6.jpeg",
+            "validation_score": 1,
+            "human_score": 1,
+            "action_template": "[\n    {\n        \"action\": \"Walk\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"The robot should move to the chair located on the right side of the kitchen, near the wall.\"\n    },\n    {\n        \"action\": \"Grab\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"None (target object is specified).\"\n    },\n    {\n        \"action\": \"Walk\",\n        \"parameters\": {\n            \"target\": \"position\"\n        },\n        \"goal\": \"The robot should navigate to the left side of the kitchen, next to the other chairs near the table.\"\n    },\n    {\n        \"action\": \"Place\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"Position the chair next to the other chairs at the table.\"\n    }\n]"
+        },
+        {
+            "image": "C:/Users/ahziy/OneDrive/Y4S1/FYP/ViLT/vilt/data/images\\cropped_scene_63.jpeg",
+            "validation_score": 1,
+            "human_score": 1,
+            "action_template": "[\n    {\n        \"action\": \"Walk\",\n        \"parameters\": { \"target\": \"chair\" },\n        \"goal\": \"To the chair placed in the wrong position by the rug in the center of the kitchen.\"\n    },\n    {\n        \"action\": \"Grab\",\n        \"parameters\": { \"target\": \"chair\" },\n        \"goal\": \"None (chair is the target object).\"\n    },\n    {\n        \"action\": \"Walk\",\n        \"parameters\": { \"direction\": \"north-east\" },\n        \"goal\": \"Move towards the correct position near the kitchen table by the wall.\"\n    },\n    {\n        \"action\": \"Place\",\n        \"parameters\": { \"target\": \"chair\" },\n        \"goal\": \"Place the chair next to the kitchen table where the other chairs are aligned.\"\n    }\n]"
+        },
+        {
+            "image": "C:/Users/ahziy/OneDrive/Y4S1/FYP/ViLT/vilt/data/images\\cropped_scene_71.jpeg",
+            "validation_score": 1,
+            "human_score": 0,
+            "action_template": "[\n    {\n        \"action\": \"Walk\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"Move to the northeast corner of the kitchen, next to the refrigerator.\"\n    },\n    {\n        \"action\": \"Grab\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"None (target object is specified).\"\n    },\n    {\n        \"action\": \"Walk\",\n        \"parameters\": {\n            \"target\": \"dining table\"\n        },\n        \"goal\": \"Move to the southwest corner of the dining area, near the dining table.\"\n    },\n    {\n        \"action\": \"Place\",\n        \"parameters\": {\n            \"target\": \"chair\"\n        },\n        \"goal\": \"Place the chair at its suitable position, facing the table.\"\n    }\n]"
+        }
+    ]
+}
