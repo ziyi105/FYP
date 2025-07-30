@@ -126,6 +126,22 @@ You will obtain:
     
 ---
 
+📁 Download Preprocessed Dataset
+
+If you want to skip the data collection pipeline and directly use the preprocessed dataset, you can download it from [link](https://drive.google.com/drive/folders/15_snMEvzRYQtBbrGAtrqP3p-H-yChTKR?usp=sharing)
+
+👉 Download Dataset (Google Drive)
+
+    Includes:
+
+        Cropped and compressed scene images
+
+        Annotated coordinates (red cross positions)
+
+        LLM-generated spatial descriptions
+
+        Cleaned and normalized annotations.json (might need to edit the image path in the script)
+
 ## 📌 Highlights
 
 * **Cross-domain innovation**: Adapted Region Proposal Networks from computer vision to language grounding.
